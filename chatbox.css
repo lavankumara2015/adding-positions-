@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lavan {
+    width: 450px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px black;
+    background-color: rgb(110, 110, 238);
+}
+
+.lavan1 h1 {
+    color: rgb(96, 15, 15);
+    padding: 15px;
+}
+
+.lavan2 {
+    flex: 1;
+    color: white;
+    background-color: rgb(244, 144, 200);
+    padding: 20px 30px
+}
+
+.lavan3 {
+    background-color: rgb(75, 158, 242);
+    padding: 15px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.me {
+    margin-left: auto;
+    background-color: rgb(155, 61, 244);
+
+}
+
+.footer form {
+    display: flex;
+    padding: 10px;
+}
+
+form input{
+flex: 1;
+height: 30px;
+border: none;
+outline: auto;
+padding-left: 10px;
+font-size: 16px;
+
+}
+form button{
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(150, 150, 182);
+    color:  black;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: rgb(112, 244, 171);
+    transition: 3s ease;
+
+}
